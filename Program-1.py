@@ -1,3 +1,4 @@
+#USING PYTHON LANGUAGE SMALL CALCULATOR
 class Calculator:
     def calculate(self, a, b, ope):
         if ope == "addition":
@@ -18,4 +19,5 @@ print(c.calculate(10, 5, "addition"))
 print(c.calculate(10, 5, "subtraction"))
 print(c.calculate(10, 5, "multiplication"))
 print(c.calculate(10, 5, "division"))
+
 
