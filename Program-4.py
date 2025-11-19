@@ -1,3 +1,4 @@
+"""using python program4"
 li=list(map(int,input().split()))
 d= {}
 for i in range(1, 10):
@@ -7,3 +8,4 @@ for i in range(1, 10):
             c += 1
     d[i] = c
 print(d)
+
